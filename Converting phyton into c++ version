@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+   string a;
+
+   cout << "COMPUTER ENGINEERING TERMS AND DEFINITIONS: ";
+   cin >> a;
+
+   if (a == "ARITHMETIC") {
+       cout << "THE PROCESS OF MAKING CALCULATIONS.";
+   } else if (a == "BINARY CODE") {
+       cout << "BINARY CODE REPRESENTS DATA AND INSTRUCTIONS.";
+   } else if (a == "DATA BUS") {
+       cout << "IS A COMMUNICATION PATHWAY THAT ALLOWS DATA TO BE TRANSFERRED.";
+   } else if (a == "EMBEDDED SYSTEM") {
+       cout << "SPECIALIZED COMPUTER THAT PERFORMS LARGE DEDICATED FUNCTIONS.";
+   } else if (a == "FIRMWARE") {
+       cout << "IS A TYPE OF SOFTWARE PERMANENTLY STORED IN HARDWARE DEVICES.";
+   } else if (a == "GRAPHICS PROCESSING UNIT") {
+       cout << "SPECIALIZED ELECTRONIC CIRCUIT DESIGNED TO ACCELERATE THE IMAGE.";
+   } else if (a == "HARDWARE") {
+       cout << "COMPONENTS OF A COMPUTER SYSTEM.";
+   } else if (a == "JAVA") {
+       cout << "IS A POPULAR PROGRAMMING LANGUAGE.";
+   } else if (a == "HARD DISK DRIVE") {
+       cout << "A TRADITIONAL STORAGE DEVICE THAT USES MAGNETIC DISKS.";
+   }
+
+   return 0;
+}
